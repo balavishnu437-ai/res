@@ -36,7 +36,7 @@ elif st.session_state.page == "app":
     # ✅ Docetaxel SMILES (simplified long form)
     smiles = st.text_input(
         "Enter SMILES",
-        "CC1=C2C(=C(C(=O)O1)O)OC3C(C(C(C(O3)CO)O)O)OC4C(C(C(C(O4)CO)O)O)O"
+        "CC1=C2C(=C(C(=O)O1)O)OC3C(C(C(C(O3)CO)O)O)OC4C(C(C(C(O4)CO)O)O)OC5=CC=CC=C5"
     )
 
     # -------------------------------
